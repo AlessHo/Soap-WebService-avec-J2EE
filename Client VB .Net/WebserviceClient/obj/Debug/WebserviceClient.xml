@@ -1,0 +1,77 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WebserviceClient
+</name>
+</assembly>
+<members>
+<member name="T:WebserviceClient.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:WebserviceClient.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:WebserviceClient.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:WebserviceClient.localhost.MyServiceClassService">
+<remarks/>
+</member>
+<member name="M:WebserviceClient.localhost.MyServiceClassService.#ctor">
+<remarks/>
+</member>
+<member name="E:WebserviceClient.localhost.MyServiceClassService.AddNumbersCompleted">
+<remarks/>
+</member>
+<member name="E:WebserviceClient.localhost.MyServiceClassService.SayHelloCompleted">
+<remarks/>
+</member>
+<member name="M:WebserviceClient.localhost.MyServiceClassService.AddNumbers(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:WebserviceClient.localhost.MyServiceClassService.AddNumbersAsync(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:WebserviceClient.localhost.MyServiceClassService.AddNumbersAsync(System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:WebserviceClient.localhost.MyServiceClassService.SayHello(System.String)">
+<remarks/>
+</member>
+<member name="M:WebserviceClient.localhost.MyServiceClassService.SayHelloAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:WebserviceClient.localhost.MyServiceClassService.SayHelloAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:WebserviceClient.localhost.MyServiceClassService.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:WebserviceClient.localhost.AddNumbersCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:WebserviceClient.localhost.AddNumbersCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:WebserviceClient.localhost.AddNumbersCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:WebserviceClient.localhost.SayHelloCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:WebserviceClient.localhost.SayHelloCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:WebserviceClient.localhost.SayHelloCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

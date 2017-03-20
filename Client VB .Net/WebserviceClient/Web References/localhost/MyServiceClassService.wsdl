@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://MyPackage/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="MyServiceClassService" targetNamespace="http://MyPackage/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types />
+  <message name="SayHello">
+    <part name="arg0" type="xsd:string" />
+  </message>
+  <message name="SayHelloResponse">
+    <part name="return" type="xsd:string" />
+  </message>
+  <message name="AddNumbers">
+    <part name="arg0" type="xsd:int" />
+    <part name="arg1" type="xsd:int" />
+  </message>
+  <message name="AddNumbersResponse">
+    <part name="return" type="xsd:int" />
+  </message>
+  <message name="SayHi">
+    <part name="arg0" type="xsd:string" />
+  </message>
+  <message name="SayHiResponse">
+    <part name="return" type="xsd:string" />
+  </message>
+  <portType name="MyServiceClass">
+    <operation name="SayHello">
+      <input wsam:Action="http://MyPackage/MyServiceClass/SayHelloRequest" message="tns:SayHello" />
+      <output wsam:Action="http://MyPackage/MyServiceClass/SayHelloResponse" message="tns:SayHelloResponse" />
+    </operation>
+    <operation name="AddNumbers" parameterOrder="arg0 arg1">
+      <input wsam:Action="http://MyPackage/MyServiceClass/AddNumbersRequest" message="tns:AddNumbers" />
+      <output wsam:Action="http://MyPackage/MyServiceClass/AddNumbersResponse" message="tns:AddNumbersResponse" />
+    </operation>
+    <operation name="SayHi">
+      <input wsam:Action="http://MyPackage/MyServiceClass/SayHiRequest" message="tns:SayHi" />
+      <output wsam:Action="http://MyPackage/MyServiceClass/SayHiResponse" message="tns:SayHiResponse" />
+    </operation>
+  </portType>
+  <binding name="MyServiceClassPortBinding" type="tns:MyServiceClass">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <operation name="SayHello">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" namespace="http://MyPackage/" />
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://MyPackage/" />
+      </output>
+    </operation>
+    <operation name="AddNumbers">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" namespace="http://MyPackage/" />
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://MyPackage/" />
+      </output>
+    </operation>
+    <operation name="SayHi">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" namespace="http://MyPackage/" />
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://MyPackage/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="MyServiceClassService">
+    <port name="MyServiceClassPort" binding="tns:MyServiceClassPortBinding">
+      <soap:address location="http://localhost:8080/MyFirstWebService/MyServiceClass" />
+    </port>
+  </service>
+</definitions>

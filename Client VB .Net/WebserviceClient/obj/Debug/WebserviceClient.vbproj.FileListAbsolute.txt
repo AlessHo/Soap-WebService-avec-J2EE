@@ -1,0 +1,11 @@
+c:\users\aless\documents\visual studio 2015\Projects\WebserviceClient\WebserviceClient\bin\Debug\WebserviceClient.exe.config
+c:\users\aless\documents\visual studio 2015\Projects\WebserviceClient\WebserviceClient\bin\Debug\WebserviceClient.exe
+c:\users\aless\documents\visual studio 2015\Projects\WebserviceClient\WebserviceClient\bin\Debug\WebserviceClient.pdb
+c:\users\aless\documents\visual studio 2015\Projects\WebserviceClient\WebserviceClient\bin\Debug\WebserviceClient.xml
+c:\users\aless\documents\visual studio 2015\Projects\WebserviceClient\WebserviceClient\obj\Debug\WebserviceClient.vbprojResolveAssemblyReference.cache
+c:\users\aless\documents\visual studio 2015\Projects\WebserviceClient\WebserviceClient\obj\Debug\WebserviceClient.Form1.resources
+c:\users\aless\documents\visual studio 2015\Projects\WebserviceClient\WebserviceClient\obj\Debug\WebserviceClient.Resources.resources
+c:\users\aless\documents\visual studio 2015\Projects\WebserviceClient\WebserviceClient\obj\Debug\WebserviceClient.vbproj.GenerateResource.Cache
+c:\users\aless\documents\visual studio 2015\Projects\WebserviceClient\WebserviceClient\obj\Debug\WebserviceClient.exe
+c:\users\aless\documents\visual studio 2015\Projects\WebserviceClient\WebserviceClient\obj\Debug\WebserviceClient.xml
+c:\users\aless\documents\visual studio 2015\Projects\WebserviceClient\WebserviceClient\obj\Debug\WebserviceClient.pdb
